@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Driving Psychology & Accident Prevention in India</title>
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+   <style>
+       /* Apply Inter font family */
+       body {
+           font-family: 'Inter', sans-serif;
+           background-color: #111827; /* Dark background */
+           color: #e5e7eb; /* Light text */
+       }
+       .nav-link {
+           cursor: pointer;
+           transition: color 0.2s, background-color 0.2s;
+           padding: 8px 16px;
+           border-radius: 8px;
+       }
+       /* High contrast amber hover state */
+       .nav-link:hover {
+           color: #f59e0b; /* Amber-500 */
+           background-color: #374151; /* Gray-700 */
+       }
+       /* Active link uses bright amber */
+       .active-link {
+           color: #fbbf24; /* Amber-400 */
+           font-weight: 600;
+       }
+       .content-section {
+           display: none;
+           animation: fadeIn 0.5s ease-out;
+       }
+       @keyframes fadeIn {
+           from { opacity: 0; transform: translateY(10px); }
+           to { opacity: 1; transform: translateY(0); }
+       }
+   </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+
+   <!-- Header and Navigation (Dark Background) -->
+   <header class="bg-gray-800 shadow-xl sticky top-0 z-10">
+       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+           <h1 class="text-2xl font-bold text-amber-400">
+               <a href="#home" class="nav-link !p-0" onclick="navigateTo('home')">RoadSense India</a>
+           </h1>
+           <nav class="space-x-4 flex">
+               <a class="nav-link" href="#home" id="nav-home" onclick="navigateTo('home')">Home</a>
+               <a class="nav-link" href="#about" id="nav-about" onclick="navigateTo('about')">About</a>
+               <a class="nav-link" href="#faqs" id="nav-faqs" onclick="navigateTo('faqs')">FAQs</a>
+               <a class="nav-link" href="#contact" id="nav-contact" onclick="navigateTo('contact')">Contact</a>
+           </nav>
+       </div>
+   </header>
+
+
+   <!-- Main Content Area -->
+   <main class="flex-grow max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+
+
+       <!-- Home Page Content (Dark Section) -->
+       <section id="home" class="content-section bg-gray-900 p-8 rounded-xl shadow-2xl">
+           <h2 class="text-4xl font-extrabold text-amber-400 mb-6 border-b-2 border-amber-500 pb-2">
+               Driving Psychology and Accident Prevention in India: Why the Mind Matters as Much as the Machine
+           </h2>
+           <div class="space-y-6 text-lg text-gray-300 leading-relaxed">
+               <p>
+                   If you’ve ever driven through an Indian city at rush hour, you already know that surviving traffic here is as much a mental game as a mechanical one. We share our roads with rickshaws, buses, impatient bikers, trucks carrying impossible loads, pedestrians who materialize from nowhere, and the occasional cow meditating in the middle of the street. But it’s not just the chaos around us that causes accidents—it’s often the psychology behind the wheel.
+               </p>
+
+
+               <h3 class="text-2xl font-bold text-gray-100 border-l-4 border-amber-500 pl-3">The Mental Side of Driving</h3>
+               <p>
+                   Most people think road safety is mainly about technique: correct signaling, lane discipline, speed control, etc. But even the most experienced driver can mess up if their mindset is off.
+               </p>
+               <p class="font-semibold text-gray-100">Some common psychological traps many Indian drivers fall into:</p>
+               <ul class="list-disc list-inside space-y-2 ml-4">
+                   <li><strong>Overconfidence:</strong> “I’ve been driving for 20 years—I know what I’m doing.”</li>
+                   <li><strong>Impatience:</strong> Seeing the red light, and still inching forward like a contestant waiting for a race signal.</li>
+                   <li><strong>Normalization of risk:</strong> “Everyone goes 80 in this zone—it’s fine.”</li>
+                   <li><strong>Social comparison:</strong> If others break rules, we feel subconsciously allowed to do it too.</li>
+               </ul>
+               <p>
+                   When too many drivers share these attitudes, the road becomes a psychological battleground.
+               </p>
+
+
+               <h3 class="text-2xl font-bold text-gray-100 border-l-4 border-amber-500 pl-3">A Short Scenario: The Chain Reaction</h3>
+               <p>
+                   Let me share a simple, realistic situation: Rajesh was late for work. He was irritated, mentally replaying excuses for missing his morning meeting. At a busy junction, instead of waiting for a slow-moving bus to clear the lane, he decided to squeeze his car through a narrow gap. A biker behind him decided to follow his move. The biker misjudged the space, clipped the edge of the bus, and fell.
+               </p>
+               <p>
+                   Rajesh didn’t hit anyone. He didn’t break a signal. But his impatience set off a chain of copycat behavior—and someone got hurt. This is how many real accidents happen: not from a single outrageous mistake, but from small emotional ripples.
+               </p>
+
+
+               <h3 class="text-2xl font-bold text-gray-100 border-l-4 border-amber-500 pl-3">Cultural Habits That Sneak Into Driving Behavior</h3>
+               <ul class="list-disc list-inside space-y-2 ml-4">
+                   <li>We’re used to negotiating personal space—on trains, queues, markets.</li>
+                   <li>We’re accustomed to “adjusting” unspoken norms.</li>
+                   <li>We often prioritize personal urgency over collective rules.</li>
+               </ul>
+               <p>
+                   It’s not that Indians are bad drivers—we’re actually incredibly skilled at micro-navigation. But the spontaneous creativity we apply to traffic also introduces unpredictability.
+               </p>
+
+
+               <h3 class="text-2xl font-bold text-gray-100 border-l-4 border-amber-500 pl-3">How Psychology Can Be Shifted for Better Safety</h3>
+               <ul class="list-disc list-inside space-y-2 ml-4">
+                   <li>Treat driving as a calm, focused activity—not a race or obstacle course.</li>
+                   <li>Recognize that your behavior influences others around you.</li>
+                   <li>See patience not as wasted time, but as invested safety.</li>
+                   <li>View rule-following as teamwork, not obedience.</li>
+               </ul>
+               <p>
+                   When we think of ourselves as part of a system rather than solo players, our actions change.
+               </p>
+
+
+               <h3 class="text-2xl font-bold text-gray-100 border-l-4 border-amber-500 pl-3">A Friendly Final Thought</h3>
+               <p>
+                   Next time you’re behind the wheel, notice your mood. If you’re angry, anxious, or rushed—you’re not just operating a vehicle, you're shaping the atmosphere of the road around you. A little kindness—like letting someone merge or waiting that extra half-second—can make driving feel less like combat and more like coexistence.
+               </p>
+               <p class="italic text-amber-400 font-medium">
+                   Here’s a warm way to think about it: we’re all just humans trying to get somewhere safely. Give others the kind of driving grace you’d want for yourself or your loved ones.
+               </p>
+           </div>
+       </section>
+
+
+       <!-- About Page Content -->
+       <section id="about" class="content-section bg-gray-900 p-8 rounded-xl shadow-2xl">
+           <h2 class="text-4xl font-extrabold text-amber-400 mb-6 border-b-2 border-amber-500 pb-2">
+               About RoadSense India
+           </h2>
+           <div class="space-y-6 text-lg text-gray-300 leading-relaxed">
+               <p>
+                   RoadSense India was founded on the belief that true road safety begins not with better roads or stricter penalties, but with a deeper understanding of human behavior. While engineering and enforcement play crucial roles, the vast majority of accidents are caused by human error rooted in psychological factors like impatience, overconfidence, and risk-taking.
+               </p>
+               <p>
+                   Our mission is to shift the focus of road safety education in India from merely teaching mechanical driving skills to cultivating a mindset of responsibility, patience, and collective well-being. We aim to highlight how deeply ingrained cultural and psychological habits manifest in driving behavior, often creating unpredictable and dangerous traffic environments.
+               </p>
+               <h3 class="text-2xl font-bold text-gray-100 border-l-4 border-amber-500 pl-3">Our Core Philosophy</h3>
+               <p>
+                   We believe that every driver, biker, and pedestrian is a part of the road ecosystem. By promoting empathy and self-awareness, we can foster an environment where coexistence replaces combat, turning chaotic roads into safer, more predictable pathways for everyone. This site serves as a resource for articles, analysis, and practical tips focused on the mental discipline required for safe driving in high-density traffic situations.
+               </p>
+           </div>
+       </section>
+
+
+       <!-- FAQs Page Content -->
+       <section id="faqs" class="content-section bg-gray-900 p-8 rounded-xl shadow-2xl">
+           <h2 class="text-4xl font-extrabold text-amber-400 mb-6 border-b-2 border-amber-500 pb-2">
+               Frequently Asked Questions
+           </h2>
+           <div class="space-y-6">
+               <!-- FAQ Item 1 -->
+               <div class="p-4 bg-gray-800 rounded-lg shadow-lg">
+                   <h3 class="text-xl font-semibold text-amber-400 mb-2">Q: Why focus on driver psychology instead of infrastructure improvements?</h3>
+                   <p class="text-gray-300">
+                       A: While infrastructure is vital, data consistently shows that human error, often driven by attitude and emotion, is the primary cause of road accidents worldwide, and especially in India's complex traffic environment. Better roads can reduce risks, but an impatient or aggressive driver can undermine the safest design. By addressing the 'human factor,' we target the root cause of high-risk behavior immediately.
+                   </p>
+               </div>
+               <!-- FAQ Item 2 -->
+               <div class="p-4 bg-gray-800 rounded-lg shadow-lg">
+                   <h3 class="text-xl font-semibold text-amber-400 mb-2">Q: What exactly is "normalization of risk"?</h3>
+                   <p class="text-gray-300">
+                       A: Normalization of risk is the psychological process where dangerous, high-risk behaviors become routine and accepted over time. For example, if you consistently overspeed without consequence, your mind begins to accept that speed as 'safe' or 'normal,' even though it is objectively dangerous and illegal. This mindset is highly contagious in a driving population.
+                   </p>
+               </div>
+               <!-- FAQ Item 3 -->
+               <div class="p-4 bg-gray-800 rounded-lg shadow-lg">
+                   <h3 class="text-xl font-semibold text-amber-400 mb-2">Q: How can I begin to change my own ingrained driving habits?</h3>
+                   <p class="text-gray-300">
+                       A: Start small! Practice 'Mindful Driving.' Before starting the car, take two deep breaths and set an intention to be patient, focused, and kind. Choose one habit (like unnecessary honking or tailgating) and actively work on stopping it for just one trip. The key is consistent, small acts of self-correction. Over time, these conscious choices become unconscious habits.
+                   </p>
+               </div>
+           </div>
+       </section>
+
+
+       <!-- Contact Page Content -->
+       <section id="contact" class="content-section bg-gray-900 p-8 rounded-xl shadow-2xl">
+           <h2 class="text-4xl font-extrabold text-amber-400 mb-6 border-b-2 border-amber-500 pb-2">
+               Get In Touch
+           </h2>
+           <div class="grid md:grid-cols-2 gap-8">
+               <!-- Contact Form (Placeholder) -->
+               <div class="space-y-4">
+                   <h3 class="text-2xl font-semibold text-gray-100">Send Us a Message</h3>
+                   <form onsubmit="event.preventDefault(); showMessage('Your message has been sent! We will respond shortly.'); this.reset();" class="space-y-4">
+                       <div>
+                           <label for="name" class="block text-sm font-medium text-gray-300">Name</label>
+                           <input type="text" id="name" required class="mt-1 block w-full rounded-lg bg-gray-700 border-gray-600 text-white shadow-sm focus:border-amber-400 focus:ring-amber-400 p-2 border">
+                       </div>
+                       <div>
+                           <label for="email" class="block text-sm font-medium text-gray-300">Email</label>
+                           <input type="email" id="email" required class="mt-1 block w-full rounded-lg bg-gray-700 border-gray-600 text-white shadow-sm focus:border-amber-400 focus:ring-amber-400 p-2 border">
+                       </div>
+                       <div>
+                           <label for="message" class="block text-sm font-medium text-gray-300">Message</label>
+                           <textarea id="message" rows="4" required class="mt-1 block w-full rounded-lg bg-gray-700 border-gray-600 text-white shadow-sm focus:border-amber-400 focus:ring-amber-400 p-2 border"></textarea>
+                       </div>
+                       <button type="submit" class="w-full bg-amber-500 text-gray-900 py-2 px-4 rounded-lg font-bold hover:bg-amber-600 transition duration-150 shadow-md">
+                           Submit Message
+                       </button>
+                   </form>
+               </div>
+              
+               <!-- Contact Info -->
+               <div class="space-y-6 pt-4">
+                   <h3 class="text-2xl font-semibold text-gray-100">Contact Information</h3>
+                   <div class="space-y-3">
+                       <p class="flex items-center text-gray-300">
+                           <svg class="w-5 h-5 text-amber-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                           <strong>Email:</strong> info@roadsenseindia.org
+                       </p>
+                       <p class="flex items-center text-gray-300">
+                           <svg class="w-5 h-5 text-amber-500 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.8A2 2 0 0110.586 20.8L6.343 16.657A8 8 0 1117.657 16.657z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                           <strong>Address:</strong> 101, Safety Hub, New Delhi, India 110001
+                       </p>
+                       <p class="text-gray-400 pt-2 italic">
+                           (Note: This is a placeholder address and email for demonstration purposes.)
+                       </p>
+                   </div>
+               </div>
+           </div>
+          
+           <!-- Custom Notification Message Box -->
+           <div id="notification-box" class="fixed bottom-4 right-4 bg-amber-500 text-gray-900 p-4 rounded-lg shadow-xl hidden transition-opacity duration-300">
+               Notification goes here.
+           </div>
+       </section>
+   </main>
+
+
+   <!-- Footer -->
+   <footer class="bg-black text-white mt-8">
+       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 text-center text-sm text-amber-400">
+           &copy; <span id="current-year"></span> RoadSense India. All rights reserved. | Advocating for Mindful Driving.
+       </div>
+   </footer>
+
+
+   <script>
+       document.getElementById('current-year').textContent = new Date().getFullYear();
+
+
+       const sections = {
+           home: document.getElementById('home'),
+           about: document.getElementById('about'),
+           faqs: document.getElementById('faqs'),
+           contact: document.getElementById('contact'),
+       };
+
+
+       const navLinks = {
+           home: document.getElementById('nav-home'),
+           about: document.getElementById('nav-about'),
+           faqs: document.getElementById('nav-faqs'),
+           contact: document.getElementById('nav-contact'),
+       };
+
+
+       // Custom notification function (replaces alert())
+       function showMessage(msg) {
+           const box = document.getElementById('notification-box');
+           box.textContent = msg;
+           // Use amber for high visibility message box
+           box.classList.remove('hidden', 'opacity-0');
+           box.classList.add('opacity-100');
+           setTimeout(() => {
+               box.classList.remove('opacity-100');
+               box.classList.add('opacity-0');
+               // Hide after transition
+               setTimeout(() => box.classList.add('hidden'), 300);
+           }, 3000);
+       }
+
+
+       function navigateTo(pageId) {
+           // Hide all sections and remove active class from all links
+           Object.keys(sections).forEach(id => {
+               sections[id].style.display = 'none';
+               navLinks[id].classList.remove('active-link');
+           });
+
+
+           // Show the requested section and set active class on link
+           const targetSection = sections[pageId];
+           const targetLink = navLinks[pageId];
+          
+           if (targetSection) {
+               targetSection.style.display = 'block';
+           }
+           if (targetLink) {
+               targetLink.classList.add('active-link');
+           }
+          
+           // Update URL hash without causing page reload
+           history.pushState(null, null, '#' + pageId);
+       }
+
+
+       // Handle initial load and hash changes
+       function handleLocationChange() {
+           const hash = window.location.hash.substring(1) || 'home';
+           if (sections[hash]) {
+               navigateTo(hash);
+           } else {
+               navigateTo('home');
+           }
+       }
+
+
+       // Event listener for browser back/forward buttons
+       window.addEventListener('popstate', handleLocationChange);
+
+
+       // Initial load
+       window.addEventListener('load', handleLocationChange);
+
+
+   </script>
+</body>
+</html>
